@@ -5,6 +5,4 @@
 title = "burntraisin"
 +++
 
-Hello! I'm Rebekah (also known as burntraisin), and I'm a student based in the NYC metropolitan area studying computer science.
-
-This website's theme was inspired by [bear blog](https://bearblog.dev/) and created by [Jan Raasch](https://www.janraasch.com).
+Hello! I'm Rebekah (also known as burntraisin), and I'm a student based in the NYC metropolitan area studying computer science. I spend a good chunk of my time on my computer, likely on my text editor ~~operating system~~ of choice: Emacs.

@@ -34,7 +34,7 @@ To maintain the list of Works I was reading, I created several files in the same
 ``` bash
 #!/usr/bin/bash
 	
-input_file="/home/gale/ao3-scripts/fics.txt"
+input_file="/home/burntraisin/ao3-scripts/fics.txt"
 	
 declare -a input_array
 declare -a work_ids
@@ -52,11 +52,11 @@ done
 
 printf "%s\n" "${work_ids[@]}" > work-ids.txt
 cat work-ids.txt
-echo `mv work-ids.txt /home/gale/ao3-scripts/`
+echo `mv work-ids.txt /home/burntraisin/ao3-scripts/`
 
 printf "%s\n" "${filenames[@]}" > filenames.txt
 cat filenames.txt
-echo `mv filenames.txt /home/gale/ao3-scripts/`
+echo `mv filenames.txt /home/burntraisin/ao3-scripts/`
 ```
 
 ### 3. `move-atom-files.sh`
@@ -76,16 +76,16 @@ echo `mv *.atom ~/rss/`
 #!/usr/bin/expect
 	
 # Generate lists
-spawn /home/gale/ao3-scripts/generate-lists.sh
+spawn /home/burntraisin/ao3-scripts/generate-lists.sh
 sleep 10
 
 # Get list of work IDs
-set file [open "/home/gale/ao3-scripts/work-ids.txt"]
+set file [open "/home/burntraisin/ao3-scripts/work-ids.txt"]
 set work_ids [split [read $file] "\n"]
 close $file
 
 # Get list of filenames
-set file [open "/home/gale/ao3-scripts/filenames.txt"]
+set file [open "/home/burntraisin/ao3-scripts/filenames.txt"]
 set filenames [split [read $file] "\n"]
 close $file
 	
@@ -154,7 +154,7 @@ expect ""
 sleep 3
 	
 # Run script to move saved atom files
-spawn /home/gale/ao3-scripts/move-atom-files.sh
+spawn /home/burntraisin/ao3-scripts/move-atom-files.sh
 sleep 5
 ```
 	
@@ -172,7 +172,7 @@ I could execute `generate-rss.sh` whenever I want before actually fetching updat
 Enter `crontab -e` into your terminal to edit your `crontab` file:
 
 ``` bash
-0 3 * * * bash /home/gale/ao3-scripts/generate-rss.sh
+0 3 * * * bash /home/burntraisin/ao3-scripts/generate-rss.sh
 ```
 
 I used [crontab guru](https://crontab.guru/) to help me find what cron schedule expression I wanted. Admittedly, I haven't tested this out yet. If any troubles arise, I'll definitely document them and that'll be another blog post! :)
