@@ -23,3 +23,7 @@ I also went to a stamp store called Casey Rubber Stamps. They had a cat there!
 And I bought a stamp of some kind of sauropod. I think it's a brontosaurus.
 
 ![Dino stamp](./images/stamp.jpg)
+
+Kinokuniya has the silliest items. I love going there for the stationery and the figures.
+
+![Kirby sign](./images/kirby.jpg)
