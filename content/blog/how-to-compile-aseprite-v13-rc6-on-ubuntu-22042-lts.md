@@ -6,7 +6,7 @@ tags = ["linux",]
 
 When trying to compile [Aseprite](https://www.aseprite.org/), I found that following the [install guide](https://github.com/aseprite/aseprite/blob/main/INSTALL.md) for Ubuntu 22.04.2 LTS led to a couple of error messages. I had a list of commands I used to successfully compile [Aseprite V1.3-RC6](https://github.com/aseprite/aseprite/releases/tag/v1.3-rc6) saved in a text file that I meant to upload a long time ago. Better late than never, I suppose.
 
-In addition to the install guide, I remember referencing a couple of obscure blog posts and comments made on GitHub. Unfortuantely, I don't have them documented, so if anyone has a relevant link, please reach out to me at `scatteredraisins@proton.me`!
+In addition to the install guide, I remember referencing a couple of obscure blog posts and comments made on GitHub. Unfortuantely, I don't have them documented, so if anyone has a relevant link, please reach out to me at `rbkehan@gmail.com`!
 
 ## The Steps
 
