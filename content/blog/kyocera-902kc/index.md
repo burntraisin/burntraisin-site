@@ -24,7 +24,7 @@ While setting up the 902KC, I found using screen mirroring software very helpful
 
 ## Carrier Compatibility (USA)
 
-My carrier is Spectrum, which uses Verizon's networks. I've heard that the 902KC only works with T-Mobile, but I tried putting the nano SIM in anyway. As expected, it didn't work. I ended up going with [Mint Mobile](https://www.mintmobile.com/) after checking that my phone was [compatible with their network](https://www.mintmobile.com/byop/) by entering its IMEI number.
+My carrier is Spectrum, which uses Verizon's networks. I've heard that the 902KC only works with T-Mobile, but I tried putting the nano SIM in anyway. As expected, it didn't work. I ended up going with [Mint Mobile](https://www.mintmobile.com/) after checking that my phone was [compatible with their network](https://www.mintmobile.com/byop/) by entering its IMEI number. You can also check the bands around your area with [CellMapper](https://www.cellmapper.net/map).
 
 To find the IMEI number: `Settings > About phone > Status > IMEI information`
 
