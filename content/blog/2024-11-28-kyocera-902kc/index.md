@@ -69,6 +69,7 @@ Installing F-Droid gave me most of the apps I wanted to install for different pu
 |Mail|K-9|[F-Droid](https://f-droid.org/en/packages/com.fsck.k9/)|
 |Weather|Clima|[F-Droid](https://f-droid.org/en/packages/co.prestosole.clima/)|
 |Music|Spotify Lite|[uptodown](https://spotify-lite.en.uptodown.com/android/download/121328406-x)|
+|Maps|Organic Maps|[F-Droid](https://f-droid.org/en/packages/app.organicmaps/)|
 |Keyboard|TT9|[F-Droid](https://f-droid.org/en/packages/io.github.sspanak.tt9/)|
 |Key bindings|Key Mapper|[F-Droid](https://f-droid.org/en/packages/io.github.sds100.keymapper/)|
 |Package name viewer|Package Name Viewer|[APKPure](https://apkpure.com/package-name-viewer-2-0/com.csdroid.pkg)|
@@ -143,17 +144,15 @@ I tried hunting around for a phone case made for the 902KC, but I haven't found 
 
 ### GPS
 
-The GPS with this phone is a hit-or-miss, but I bet it's perfectly functional in Japan. As for daily use, I always keep the 902KC with me for texting and calling because my ringer is almost always on. Because I need GPS for driving (and for some school chats as I now have two numbers), I keep my smartphone with me so that I can use Apple CarPlay.
+I installed [Organic Maps](https://organicmaps.app/) through F-Droid and it works! To enable GPS, go into `Settings > More Settings > Location` and enable `Location`. Make sure `Mode` is on `High accuracy` and that `Wi-Fi scanning` and `Bluetooth scanning` are enabled under `Scanning`. Indoors, the GPS doesn't really work but it does outside. Unfortunately, I couldn't get the voice instructions to work either. Depending on where I'm going (and if it's to an unfamiliar area), I keep my smartphone with me so that I can use Apple CarPlay.
 
-But I've been thinking about the Kyocera A202KC. It has Android 10 and I wonder if Android Auto would work. If it does, I can ditch my smartphone entirely.
-
-For now, the next move is to try [Organic Maps](https://organicmaps.app/) and see how that fares with my 902KC.
+But I've been thinking about the Kyocera A202KC. It has Android 10 and I wonder if Android Auto would work.
 
 ### Bluetooth & Music
 
-Bluetooth works with the AirPods Pros (2nd Gen) and it pairs nicely. I'm sure wired headphones or earbuds would also work so long as they are USB-C. My friend Gene ([@spicydorite](https://www.instagram.com/spicydorite/)) told me that [this analog dongle](https://www.amazon.com/dp/B01N0ZYNV8?ref=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&ref_=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&social_share=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&peakEvent=2&dealEvent=0&skipTwisterOG=1) works with the phone! He has a Kyocera 903KC, which is very similar to the 902KC, and confirmed it works. I use Spotify Lite and download the playlists I want when I'm on the go. Update: I ordered the dongle and it works!
+Bluetooth works with the AirPods Pros (2nd Gen) and it pairs nicely. I'm sure wired headphones or earbuds would also work so long as they are USB-C. My friend Gene ([@spicydorite](https://www.instagram.com/spicydorite/)) told me that [this analog dongle](https://www.amazon.com/dp/B01N0ZYNV8?ref=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&ref_=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&social_share=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&peakEvent=2&dealEvent=0&skipTwisterOG=1) works with the phone! He has a Kyocera 903KC, which is very similar to the 902KC, and confirmed it works. I use Spotify Lite and download the playlists I want when I'm on the go. **Update:** I ordered the dongle and it works!
 
-As for the drive, bluetooth pairs with the Mazda3 (2016) and the CX-30 (2024). The media controls also work in both cars! I tried pairing the phone with my friend's Audi S5 (2024) but it failed.
+As for the drive, bluetooth pairs with the Mazda3 (2016), the CX-30 (2024), and the Audi S5 (2024). The media controls also work in all cars. (*The list is in progress as people let me pair their cars with my phone, lol.*)
 
 ### Tips
 
