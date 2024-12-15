@@ -80,7 +80,7 @@ Installing F-Droid gave me most of the apps I wanted to install for different pu
 
 ### K-9
 
-K-9 was a bit of a headache to set up with Gmail. I remembering having a ton of trouble passing the CAPTCHA. To set it up with Gmail, this [forum post](https://forum.k9mail.app/t/how-to-set-up-with-a-gmail-account/3812) came in handy. IMAP must be enabled. In my case, I didn't have to generate an "App Password." Also, you may need to enable `Allow less secure apps`, which can be found in [your Google security settings](https://myaccount.google.com/security#signin).
+K-9 was a bit of a headache to set up with Gmail. I remembering having a ton of trouble passing the CAPTCHA. To set it up with Gmail, this [forum post](https://forum.k9mail.app/t/how-to-set-up-with-a-gmail-account/3812) came in handy. IMAP must be enabled. In my case, I didn't have to generate an "App Password" unless it was for a Google Workspace account. Also, you may need to enable `Allow less secure apps`, which can be found in [your Google security settings](https://myaccount.google.com/security#signin).
 
 ### Key Mapper
 
