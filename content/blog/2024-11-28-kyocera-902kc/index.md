@@ -80,7 +80,7 @@ Installing F-Droid gave me most of the apps I wanted to install for different pu
 
 ### K-9
 
-K-9 was a bit of a headache to set up with Gmail. I remembering having a ton of trouble passing the CAPTCHA. To set it up with Gmail, this [forum post](https://forum.k9mail.app/t/how-to-set-up-with-a-gmail-account/3812) came in handy. IMAP must be enabled. In my case, I didn't have to generate an "App Password."
+K-9 was a bit of a headache to set up with Gmail. I remembering having a ton of trouble passing the CAPTCHA. To set it up with Gmail, this [forum post](https://forum.k9mail.app/t/how-to-set-up-with-a-gmail-account/3812) came in handy. IMAP must be enabled. In my case, I didn't have to generate an "App Password." Also, you may need to enable `Allow less secure apps`, which can be found in [your Google security settings](https://myaccount.google.com/security#signin).
 
 ### Key Mapper
 
@@ -152,7 +152,7 @@ But I've been thinking about the Kyocera A202KC. It has Android 10 and I wonder 
 
 Bluetooth works with the AirPods Pros (2nd Gen) and it pairs nicely. I'm sure wired headphones or earbuds would also work so long as they are USB-C. My friend Gene ([@spicydorite](https://www.instagram.com/spicydorite/)) told me that [this analog dongle](https://www.amazon.com/dp/B01N0ZYNV8?ref=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&ref_=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&social_share=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&peakEvent=2&dealEvent=0&skipTwisterOG=1) works with the phone! He has a Kyocera 903KC, which is very similar to the 902KC, and confirmed it works. I use Spotify Lite and download the playlists I want when I'm on the go. **Update:** I ordered the dongle and it works!
 
-As for the drive, bluetooth pairs with the Mazda3 (2016), the CX-30 (2024), and the Audi S5 (2024). The media controls also work in all cars. (*The list is in progress as people let me pair their cars with my phone, lol.*)
+As for the drive, bluetooth pairs with the Mazda3 (2016), the CX-30 (2024), and the Audi S5 (2024). The media controls also work in all cars.
 
 ### Tips
 
