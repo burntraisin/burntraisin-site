@@ -70,7 +70,7 @@ Installing F-Droid gave me most of the apps I wanted to install for different pu
 |Weather|Clima|[F-Droid](https://f-droid.org/en/packages/co.prestosole.clima/)|
 |Music|Spotify Lite|[uptodown](https://spotify-lite.en.uptodown.com/android/download/121328406-x)|
 |Maps|Organic Maps|[F-Droid](https://f-droid.org/en/packages/app.organicmaps/)|
-|Keyboard|TT9|[F-Droid](https://f-droid.org/en/packages/io.github.sspanak.tt9/)|
+|Keyboard|TT9|[F-Droid](https://f-droid.org/en/packages/io.github.sspanak.tt9/) or [GitHub](https://github.com/sspanak/tt9/releases/tag/v41.0)|
 |Key bindings|Key Mapper|[F-Droid](https://f-droid.org/en/packages/io.github.sds100.keymapper/)|
 |Package name viewer|Package Name Viewer|[APKPure](https://apkpure.com/package-name-viewer-2-0/com.csdroid.pkg)|
 
@@ -106,8 +106,7 @@ To set up TT9 for quicker typing, open the app:
 1. `Initial Setup > Select Default Keyboard > Traditional T9`
 2. `Languages > Load Selected`
 3. `Keypad > Select Hotkeys > Backspace > F4` This sets the backspace to the Camera button, which is useful for when some apps break when the default backspace is broken.
-
-Because I've installed TT9, I also did not set a lock screen password because I've heard that TT9 would not be able to input my pin.
+4. `Appearance > Alternative Suggestion Scrolling Method` Ensure this option is enabled. This will allow you to create a lock screen password. Be sure to install the latest APK from the [GitHub](https://github.com/sspanak/tt9).
 
 ---
 
@@ -150,7 +149,7 @@ But I've been thinking about the Kyocera A202KC. It has Android 10 and I wonder 
 
 ### Bluetooth & Music
 
-Bluetooth works with the AirPods Pros (2nd Gen) and it pairs nicely. I'm sure wired headphones or earbuds would also work so long as they are USB-C. My friend Gene ([@spicydorite](https://www.instagram.com/spicydorite/)) told me that [this analog dongle](https://www.amazon.com/dp/B01N0ZYNV8?ref=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&ref_=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&social_share=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&peakEvent=2&dealEvent=0&skipTwisterOG=1) works with the phone! He has a Kyocera 903KC, which is very similar to the 902KC, and confirmed it works. I use Spotify Lite and download the playlists I want when I'm on the go. **Update:** I ordered the dongle and it works!
+Bluetooth works with the AirPods Pros (2nd Gen) and it pairs nicely. I'm sure wired headphones or earbuds would also work so long as they are USB-C. My friend Gene ([@spicydorite](https://www.instagram.com/spicydorite/)) told me that [this analog dongle](https://www.amazon.com/dp/B01N0ZYNV8?ref=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&ref_=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&social_share=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&peakEvent=2&dealEvent=0&skipTwisterOG=1) works with the phone! He has a Kyocera 903KC, which is very similar to the 902KC, and confirmed it works. I use Spotify Lite and download the playlists I want when I'm on the go.
 
 As for the drive, bluetooth pairs with the Mazda3 (2016), the CX-30 (2024), and the Audi S5 (2024). The media controls also work in all cars.
 
@@ -172,3 +171,4 @@ As for the drive, bluetooth pairs with the Mazda3 (2016), the CX-30 (2024), and 
 * Reddit post titled ["Kyocera Digno 3 (902kc vs. 903kc) information & compatibility"](https://www.reddit.com/r/dumbphones/comments/15a5i7w/kyocera_digno_3_902kc_vs_903kc_information/) by u/dche_21
 * Blog post titled ["Digital Minimalism: Kyocera 902KC"](https://lagomor.ph/2023/10/digital-minimalism-kyocera-902kc/)
 * Reddit post titled ["Kyocera Digno 902KC/903KC — What I've Learnt so Far, and What You Should Know Too! | 1 Week in — (USA)"](https://www.reddit.com/r/dumbphones/comments/1bs2xk6/kyocera_digno_902kc903kc_what_ive_learnt_so_far/) by u/FitAd1732
+* Reddit post titled [Been using a Digno 3 902kc for about 4 months now. Here is my experience.](https://www.reddit.com/r/dumbphones/comments/1e99ibb/been_using_a_digno_3_902kc_for_about_4_months_now/)
