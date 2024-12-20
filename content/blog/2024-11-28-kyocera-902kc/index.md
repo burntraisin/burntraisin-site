@@ -106,7 +106,7 @@ To set up TT9 for quicker typing, open the app:
 1. `Initial Setup > Select Default Keyboard > Traditional T9`
 2. `Languages > Load Selected`
 3. `Keypad > Select Hotkeys > Backspace > F4` This sets the backspace to the Camera button, which is useful for when some apps break when the default backspace is broken.
-4. `Appearance > Alternative Suggestion Scrolling Method` Ensure this option is enabled. This will allow you to create a lock screen password. Be sure to install the latest APK from the [GitHub](https://github.com/sspanak/tt9).
+4. `Appearance > Alternative Suggestion Scrolling Method` Ensure this option is enabled. This will allow you to create a lock screen password without being locked out of your phone. Be sure to install the latest APK from the [GitHub](https://github.com/sspanak/tt9).
 
 ---
 
@@ -152,6 +152,10 @@ But I've been thinking about the Kyocera A202KC. It has Android 10 and I wonder 
 Bluetooth works with the AirPods Pros (2nd Gen) and it pairs nicely. I'm sure wired headphones or earbuds would also work so long as they are USB-C. My friend Gene ([@spicydorite](https://www.instagram.com/spicydorite/)) told me that [this analog dongle](https://www.amazon.com/dp/B01N0ZYNV8?ref=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&ref_=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&social_share=cm_sw_r_cp_ud_dp_YK7RT9X0HCKJ1DKC93VP_1&peakEvent=2&dealEvent=0&skipTwisterOG=1) works with the phone! He has a Kyocera 903KC, which is very similar to the 902KC, and confirmed it works. I use Spotify Lite and download the playlists I want when I'm on the go.
 
 As for the drive, bluetooth pairs with the Mazda3 (2016), the CX-30 (2024), and the Audi S5 (2024). The media controls also work in all cars.
+
+### Hotspot/Tethering
+
+`Service > Tethering > Wi-Fi hotspot`
 
 ### Tips
 
