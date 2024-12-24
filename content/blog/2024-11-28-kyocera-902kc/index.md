@@ -73,6 +73,7 @@ Installing F-Droid gave me most of the apps I wanted to install for different pu
 |Keyboard|TT9|[F-Droid](https://f-droid.org/en/packages/io.github.sspanak.tt9/) or [GitHub](https://github.com/sspanak/tt9/releases/tag/v41.0)|
 |Key bindings|Key Mapper|[F-Droid](https://f-droid.org/en/packages/io.github.sds100.keymapper/)|
 |Package name viewer|Package Name Viewer|[APKPure](https://apkpure.com/package-name-viewer-2-0/com.csdroid.pkg)|
+|Manga reader|Kotatsu|[F-Droid](https://f-droid.org/en/packages/org.koitharu.kotatsu/)|
 
 ---
 
@@ -155,7 +156,7 @@ As for the drive, bluetooth pairs with the Mazda3 (2016), the CX-30 (2024), and 
 
 ### Hotspot/Tethering
 
-`Service > Tethering > Wi-Fi hotspot`
+To enable hotspot, see: `Service > Tethering > Wi-Fi hotspot`.
 
 ### Tips
 
