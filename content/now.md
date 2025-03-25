@@ -5,10 +5,9 @@ menu = "main"
 
 # Now
 
-As of November 28, 2024, I'm...
+As of March 25, 2025, I'm...
 
-- fleshing this website out.
-- working part-time at my town's cafe.
-- learning Emacs Lisp to create my own package.
-- studying. Less than a month left!
-- deciding where to go next for the spring. I'm graduating.
+- working as an intern/apprentice.
+- applying to internships for the summer.
+- studying for my bachelor's. I graduated last fall and transferred! Yippee!
+- doing silly things (time permitted). I'm working on a home NAS.
