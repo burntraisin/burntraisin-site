@@ -6,12 +6,12 @@ tags = [
 ]
 +++
 
-Because of its lower barrier to entry, making matcha at home has been my go-to drink lately. Finding good matcha has been of particular interest to me! The best matcha latte I've had was from [Ooika](https://ooika.co/). I've visited their Princeton (NJ) location and everything is controlled: the humidity, temperature—it was so cool to see. I ended up buying matcha from here and it was incredibly good. Though the kick of caffeine was too much for me, I'm still getting it the next time I make a trip there!
+Because of its lower barrier to entry, making matcha at home has been my go-to drink lately. Finding good matcha has been of particular interest to me! The best matcha latte I've had was from [Ooika](https://ooika.co/). I visited their Princeton (NJ) location and everything was controlled: the humidity, temperature—it was so cool to see. I bought matcha there and making my first latte at home was incredible. It was seriously unlike anything I've ever had. Though the kick of caffeine was too much for me, I'm still getting it the next time I make a trip there! It's worth the long drive.
 
 ![Matcha](./images/ooika-setup.jpg)
 *This is Ooika's setup!*
 
-I've also visited Setsugekka (NYC) and the "dine-in" experience was neat. There was a lot of people, so there was a wait time. The environment in the shop was cozy, facilitated by how methodically the baristas made the drinks.
+I also visited Setsugekka (NYC) and the "dine-in" experience was neat. There was a lot of people, so there was a wait time. The environment in the shop was cozy, facilitated by how methodically the baristas made the drinks.
 
 ![Matcha](./images/setsugekka-setup.jpg)
 *A barista pouring water.*
