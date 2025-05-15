@@ -5,9 +5,9 @@ menu = "main"
 
 # Now
 
-As of March 25, 2025, I'm...
+As of May 15, 2025, I'm...
 
-- working as an intern/apprentice.
-- applying to internships for the summer.
-- studying for my bachelor's. I graduated last fall and transferred! Yippee!
-- doing silly things (time permitted). I'm working on a home NAS.
+- an intern. In the city!
+- an assistant research mentor for EVC.
+- studying for my bachelor's. I'm taking one summer class.
+- working on projects, time permitted. Currently (still) working on a home NAS. And writing more blog posts.
