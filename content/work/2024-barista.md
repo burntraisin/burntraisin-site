@@ -1,9 +1,9 @@
 +++
-title = "On Working as a Barista"
+title = "Barista"
 date = "2024-12-31"
 +++
 
-# On Working as a Barista
+# Barista
 
 Working as a barista during the summer and fall of 2024 was my first *real job* that was outside of college. When I was younger, I thought of owning a coffee shop because I really liked the smell of coffee. I wasn't allowed to drink coffee then, but I love it now. I'm immensely grateful for the opportunity because the job really helped me get out of my own shell. I was really shy, but I was forced to greet customers. I grew to enjoy the pressure that came with "sucking at something to get good at it."
 
