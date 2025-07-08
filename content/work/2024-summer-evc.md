@@ -1,11 +1,11 @@
 +++
-title = "3SP Summer Internship & Beyond: Electric Vehicle Conversion (EVC)"
+title = "Electric Vehicle Conversion (EVC)"
 date = "2024-08-01"
 +++
 
-# 3SP Summer Internship & Beyond: Electric Vehicle Conversion (EVC)
+# Electric Vehicle Conversion (EVC)
 
-This summer, I was a research intern for the STEM Student Scholars Program (3SP) at my college for about 10 weeks. I was a part of the Electric Vehicle Conversion (EVC) project, on both the truck and motorcycle teams, to convert the gas-powered vehicles into electric.
+This summer (2024), I was a research intern for the STEM Student Scholars Program (3SP) at my college for about 10 weeks. I was a part of the Electric Vehicle Conversion (EVC) project, on both the truck and motorcycle teams, to convert the gas-powered vehicles into electric.
 
 I was primarily on the instrumentation team of the truck. We focused on continuing the development of the dashboard by wiring and soldering hardware and programming an Arduino Mega.
 
@@ -18,5 +18,3 @@ At the end of my internship, my team presented at the 2024 STEM C^2 Research Sum
 We also drafted a research paper that will be submitted at the end of 2024, which describes our why and how. Since I was primarily on the truck team, I contributed to the truck's paper. The objective was to analyze and compare the carbon footprint of a converted electric vehicle to equivalent gas-powered vehicles (as well as contribute to the breadth of EV knowledge and aid in the adoption of EVs).
 
 In general, we've been trying to coordinate meeting every week or every other week to work on the truck throughout the fall semester. Our most recent test run took place on October 27, 2024. We hit a top speed of 30 MPH around the school's parking lot and collected another set of data to see how it compares to the truck's original 14 MPG.
-
-*This page is a work-in-progress (WIP).*
