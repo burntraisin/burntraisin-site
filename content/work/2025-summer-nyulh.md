@@ -5,7 +5,7 @@ date = "2025-07-31"
 
 # Medical Center IT (MCIT) Intern
 
-Over the summer of 2025, I had the opportunity to work as an MCIT intern at NYU Langone Health in an 8-week internship. I was part of a cross-functional team that oversaw MyWall, which is a patient-facing technology solution that consists of a tablet and a TV. Patients are able to order food, call family, and watch movies.
+Over the summer of 2025, I had the opportunity to work as an MCIT intern at NYU Langone Health in an 8-week internship. I was part of a cross-functional team that oversaw MyWall, which is a patient-facing technology solution that consists of a tablet and a TV. Patients are able to order food, call family, and watch movies from their bedside.
 
 I was a part of a few projects, the main ones being an (1) inventory tracker, (2) ticket analysis, and (3) inpatient gaming for Child Life Services. (1) I joined the team following a hardware expansion and refresh project, so there was a need for an inventory tracker to account for location and setup configuration. (2) Post-upgrade, I took a look at analyzing the resolved tickets regarding issues with MyWall. I was able to identify problem and resolution codes and develop a template to help streamline the resolution process. (3) As for inpatient gaming, I had the opportunity to help deploy Nintendo Switches for the pediatric section of the hospital.
 
