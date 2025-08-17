@@ -8,7 +8,7 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "burntraisin"
 author = "Rebekah"
-copyright = "Copyright © 2024, Rebekah."
+copyright = "Copyright © 2025, Rebekah."
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
@@ -50,6 +50,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   # dateFormat = "2006-01-02"
+  dateFormat = "2006 Jan 02"
 
 [outputs]
   home = ['html']
