@@ -1,6 +1,7 @@
 +++
-title = "Now"
+title = "now"
 menu = "main"
+weight = 2
 +++
 
 # Now
