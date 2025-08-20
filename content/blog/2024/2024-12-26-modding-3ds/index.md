@@ -1,7 +1,7 @@
 +++
 title = "Modding My Region-Locked Nintendo 3DS"
 date = "2024-12-26"
-tags = [ "videogames", "tutorial" ]
+tags = [ "videogames", "guide" ]
 +++
 
 I recently bought a region-locked (JP) Nintendo 3DS (in flare red) for $90 off of Ebay with the intent of modding it! I've been trying to ween myself off of carrying my iPhone around with me, so I figured that extra time can be spent playing a game. I'd rather experience a story than watch slop on social media. I've wanted a 2DS/3DS for a long time—about 6 years now. And thanks to my barista money, I'll be able to drown in the incredible library of games the 3DS has.

@@ -1,7 +1,7 @@
 +++
 title = "How to Compile Aseprite V1.3-RC6 on Ubuntu 22.04.2 LTS"
 date = "2024-07-14"
-tags = [ "tutorial" ]
+tags = [ "guide" ]
 +++
 
 When trying to compile [Aseprite](https://www.aseprite.org/), I found that following the [install guide](https://github.com/aseprite/aseprite/blob/main/INSTALL.md) for Ubuntu 22.04.2 LTS led to a couple of error messages. I had a list of commands I used to successfully compile [Aseprite V1.3-RC6](https://github.com/aseprite/aseprite/releases/tag/v1.3-rc6) saved in a text file that I meant to upload a long time ago. Better late than never, I suppose.

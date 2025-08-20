@@ -3,7 +3,7 @@ title = "Speeding Up Downloads From Nintendo eShop"
 date = "2025-08-18"
 tags = [
     "videogames",
-    "tutorial"
+    "guide"
 ]
 +++
 

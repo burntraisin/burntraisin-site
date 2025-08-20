@@ -1,7 +1,7 @@
 +++
 title = "Setting Up My Kyocera 902KC"
 date = "2024-11-28"
-tags = [ "tutorial" ]
+tags = [ "guide" ]
 +++
 
 *Last updated: 2025-08-20.*
