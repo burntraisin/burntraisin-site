@@ -4,7 +4,6 @@ date = "2023-11-10"
 description = "Finally finding Emacs."
 tags = [
     "emacs",
-    "linux",
 ]
 +++
 

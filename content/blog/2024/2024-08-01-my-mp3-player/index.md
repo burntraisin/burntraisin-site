@@ -1,7 +1,7 @@
 +++
 title = "My MP3 Player"
 date = "2024-08-01"
-tags = ["linux",]
+tags = []
 +++
 
 I bought an MP3 player awhile back. It's a black [Sony Walkman NW-E394](https://electronics.sony.com/audio/walkman-digital-recorders/walkman-mp3-players/p/nwe394-b). I got the 8 GB model, which is quite small in comparison to the iPod I'm considering buying. It comes with 3.5mm jack earbuds. They don't really fit in my ears. Since I'm afraid to casually bring it outside, I crocheted a little pouch for it. I love how small and incredibly light it is in comparison to my phone. Quite literally the best part about it is that I can wash dishes with ease because there isn't a brick (i.e. my phone) weighing down my pajama pants.

@@ -2,7 +2,7 @@
 title = "Generating AO3 RSS Feeds for Work Chapters"
 date = "2024-07-06"
 tags = [
-    "linux",
+	"tutorial"
 ]
 +++
 

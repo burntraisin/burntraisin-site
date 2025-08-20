@@ -1,8 +1,10 @@
 +++
 title = "Setting Up My Kyocera 902KC"
 date = "2024-11-28"
-tags = []
+tags = [ "tutorial" ]
 +++
+
+*Last updated: 2025-08-20.*
 
 ![Sub-display view of flip phone](./images/flip-1.jpg)
 
@@ -66,6 +68,7 @@ Installing F-Droid gave me most of the apps I wanted to install for different pu
 |Function|App|Source|
 |---|---|---|
 |Text|QUIK SMS|[F-Droid](https://f-droid.org/en/packages/dev.octoshrimpy.quik/)|
+|Text|Molly (a fork of Signal)|[GitHub](https://github.com/mollyim/mollyim-android)|
 |Mail|K-9|[F-Droid](https://f-droid.org/en/packages/com.fsck.k9/)|
 |Weather|Clima|[F-Droid](https://f-droid.org/en/packages/co.prestosole.clima/)|
 |Music|Spotify Lite|[uptodown](https://spotify-lite.en.uptodown.com/android/download/121328406-x)|
@@ -108,6 +111,19 @@ To set up TT9 for quicker typing, open the app:
 2. `Languages > Load Selected`
 3. `Keypad > Select Hotkeys > Backspace > F4` This sets the backspace to the Camera button, which is useful for when some apps break when the default backspace is broken.
 4. `Appearance > Alternative Suggestion Scrolling Method` Ensure this option is enabled. This will allow you to create a lock screen password without being locked out of your phone. Be sure to install the latest APK from the [GitHub](https://github.com/sspanak/tt9).
+
+### Molly (A Fork of Signal)
+
+I really, really wanted to get [Signal](https://signal.org/) working on my device as QUIK and Google Messages didn't thread replies correctly. I kept having issues with passing the CAPTCHA and even if I was able to pass it, I wasn't able to progress any further. I got a fork of Signal, [Molly](https://molly.im/), to work. Here are the steps I took:
+
+1. Download the 3 [microG](https://github.com/microg) APKs: [microG Services](https://github.com/microg/GmsCore/releases/latest), [microG Companion](https://github.com/microg/GmsCore/releases/latest), and [microG Services Framework Proxy](https://github.com/microg/GsfProxy).
+2. Sideload each APK onto the device.
+3. Grant all permissions for each microG app, which can be found in: `Settings > More settings > Apps > App info`. Also be sure to disable battery optimization under `Settings > Battery > Battery optimization` for each app.
+4. I also enabled `Display over other apps` for `microG`. I'm unsure if this is necessary or not: `Settings > More settings > Apps > Special app access > Display over other apps > microG Services`.
+5. Configure the app `microG Settings`. Enable `Google device registration`, `Cloud Messaging`, and `Google SafetyNet`. I also signed into my Google account while I was trying to get Signal to work; I don't know if this is necessary for Molly to work. (It's probably not.)
+6. Download the APK and sideload [Molly](https://github.com/mollyim/mollyim-android/releases) onto the device. Using `scrcpy` really helped with setting things up.
+
+In `microG Settings`, you'll notice that you won't be able to check off on all of the checklist items. This is because we (unfortunately) can't root the device, so we can't signature spoof. We're using microG just as a regular user app.
 
 ---
 
@@ -176,4 +192,4 @@ To enable hotspot, see: `Service > Tethering > Wi-Fi hotspot`.
 * Reddit post titled ["Kyocera Digno 3 (902kc vs. 903kc) information & compatibility"](https://www.reddit.com/r/dumbphones/comments/15a5i7w/kyocera_digno_3_902kc_vs_903kc_information/) by u/dche_21
 * Blog post titled ["Digital Minimalism: Kyocera 902KC"](https://lagomor.ph/2023/10/digital-minimalism-kyocera-902kc/)
 * Reddit post titled ["Kyocera Digno 902KC/903KC — What I've Learnt so Far, and What You Should Know Too! | 1 Week in — (USA)"](https://www.reddit.com/r/dumbphones/comments/1bs2xk6/kyocera_digno_902kc903kc_what_ive_learnt_so_far/) by u/FitAd1732
-* Reddit post titled [Been using a Digno 3 902kc for about 4 months now. Here is my experience.](https://www.reddit.com/r/dumbphones/comments/1e99ibb/been_using_a_digno_3_902kc_for_about_4_months_now/)
+* Reddit post titled ["Been using a Digno 3 902kc for about 4 months now. Here is my experience."](https://www.reddit.com/r/dumbphones/comments/1e99ibb/been_using_a_digno_3_902kc_for_about_4_months_now/)
