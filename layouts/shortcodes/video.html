@@ -1,57 +1,69 @@
-<!--
-  Embed videos from Hugo Page Resources.
+<!-- Code snippet from: https://github.com/frjo/hugo-theme-zen/blob/main/layouts/_shortcodes/video.html -->
 
-  Setting src="my-video" with the Page Bundle containing...
+{{ $autoplay := .Get "autoplay" -}}
+{{ $caption := .Get "caption" -}}
+{{ $class := .Get "class" -}}
+{{ $loop := .Get "loop" -}}
+{{ $poster := .Get "poster" -}}
+{{ $preload := .Get "preload" | default "metadata" -}}
+{{ $src := .Get "src" -}}
+{{ $width := .Get "width" -}}
 
-    - my-video.png
-    - my-video.mp4
-    - my-video.webm
+{{ $posterres := false -}}
+{{ $resource := false -}}
+{{ $static := false -}}
+{{ $type := false -}}
 
-  ...will render the following:
+{{ if and $src (fileExists (path.Join "/static" $src)) -}}
+  {{ $static = true -}}
+  {{ $src = relURL $src -}}
+{{ else if $src -}}
+  {{ $src = strings.TrimLeft "/" $src -}}
+  {{ with resources.Get $src -}}
+    {{ $resource = . -}}
+  {{ end -}}
+  {{ with .Page.Resources.GetMatch $src -}}
+    {{ $resource = . -}}
+  {{ end -}}
+{{ end -}}
 
-    <video poster="my-video.png">
-      <source src="my-video.mp4" type="video/mp4" />
-      <source src="my-video.webm" type="video/webm" />
-    </video>
--->
+{{ if $resource -}}
+  {{ $src = $resource.RelPermalink -}}
+  {{ $type = $resource.MediaType -}}
+{{ end -}}
 
-{{ $src := .Get "src" }}
+{{ if and $poster (fileExists (path.Join "/static" $poster)) -}}
+  {{ $poster = relURL $poster -}}
+{{ else if $poster -}}
+  {{ $poster = strings.TrimLeft "/" $poster -}}
+  {{ with resources.Get $poster -}}
+    {{ $posterres = . -}}
+  {{ end -}}
+  {{ with .Page.Resources.GetMatch $poster -}}
+    {{ $posterres = . -}}
+  {{ end -}}
+{{ end -}}
 
-{{ if strings.HasPrefix $src "./" }}
-  <!-- Strip "./" prefix from relative path -->
-  {{ $src = substr $src 2 }}
-{{ end }}
+{{ if $posterres -}}
+  {{ if $width -}}
+    {{ $image := $posterres.Resize (printf "%sx" $width) -}}
+    {{ $poster = $image.RelPermalink -}}
+  {{ else -}}
+    {{ $poster = $posterres.RelPermalink -}}
+  {{ end -}}
+{{ end -}}
 
-{{ $poster := ((.Page.Resources.ByType "image").GetMatch (printf "%s*" $src)) }}
-{{ $videos := (.Page.Resources.ByType "video").Match (printf "%s*" $src) }}
+{{ if not $src -}}
+{{ warnf "%s shortcode number %d in \"content/%s\" is missing the \"src\" attribute." .Name .Ordinal .Page.File.Path -}}
+{{ else if not (or $static $resource) -}}
+{{ warnf "%s shortcode number %d in \"content/%s\" has an error in the \"src\" attribute." .Name .Ordinal .Page.File.Path -}}
+{{ end -}}
 
-
-<!--prettier-ignore-->
-{{ if .Get "caption" }}
-  <figure>
-{{ end }}
-
-{{ if $videos }}
-  <video
-    {{ if eq (.Get "autoplay") "true" }}autoplay{{ end }}
-    {{ if eq (.Get "controls" | default "true") "true" }}controls{{ end }}
-    {{ with .Get "height" }}height="{{ . }}"{{ end }}
-    {{ if eq (.Get "loop") "true" }}loop{{ end }}
-    {{ if eq (.Get "muted") "true" }}muted{{ end }}
-    {{ with $poster }}poster="{{ .RelPermalink }}"{{ end }}
-    {{ with .Get "preload" }}preload="{{ . }}"{{ end }}
-    {{ with .Get "width" }}width="{{ . }}"{{ end }}
-    {{ if eq (.Get "playsinline" | default "true") "true" }}playsinline{{ end }}
-  >
-    {{- range $videos -}}
-      <source src="{{ .RelPermalink }}" type="{{ .MediaType }}" />
-    {{- end -}}
-  </video>
-{{ end }}
-
-
-<!--prettier-ignore-->
-{{ if .Get "caption" }}
-    <figcaption>{{ .Page.RenderString (.Get "caption") }}</figcaption>
-  </figure>
-{{ end }}
+<figure class="video{{ with $class }} {{ . }}{{ end }}">
+<video controls preload="{{ $preload }}" {{ with $width }}width="{{ . }}"{{ end }} {{ with $poster }}poster="{{ . }}"{{ end }} {{ with $autoplay }}autoplay="{{ . }}"{{ end }} {{ with $loop }}loop="{{ . }}"{{ end }}>
+<source src="{{ $src }}" {{ with $type }}type="{{ . }}"{{ end }}>
+</video>
+{{ with $caption -}}
+<figcaption>{{ . | .Page.RenderString }}</figcaption>
+{{ end -}}
+</figure>
