@@ -1,6 +1,6 @@
 +++
 title = "Getting Started with Emacs: org-mode and org-super-agenda"
-date = "2025-11-08"
+date = "2025-11-10"
 tags = [
     "emacs",
     "guide"
