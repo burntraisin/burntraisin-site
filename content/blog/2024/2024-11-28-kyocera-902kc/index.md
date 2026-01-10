@@ -12,7 +12,7 @@ About a month ago, I made the semi-impulsive decision to buy a Japanese flip pho
 
 Also, here is the [user's manual](https://www.manualslib.com/manual/1835569/Digno-Keitai-3.html#product-Keitai%203) for the 902KC!
 
-You might also want to pick up a 32 GB microSD card as the phone supports that expansion. It internally has 8 GB of memory.
+You might also want to pick up a 32 GB microSD card as the phone supports that expansion. It internally has 8 GB.
 
 ![Screen view of flip phone](./images/flip-2.jpg)
 
@@ -73,6 +73,7 @@ Installing F-Droid gave me most of the apps I wanted to install for different pu
 |Weather|Clima|[F-Droid](https://f-droid.org/en/packages/co.prestosole.clima/)|
 |Music|Spotify Lite|[uptodown](https://spotify-lite.en.uptodown.com/android/download/121328406-x)|
 |Maps|Organic Maps|[F-Droid](https://f-droid.org/en/packages/app.organicmaps/)|
+|Maps|Waze||
 |Keyboard|TT9|[F-Droid](https://f-droid.org/en/packages/io.github.sspanak.tt9/) or [GitHub](https://github.com/sspanak/tt9/releases/tag/v41.0)|
 |Key bindings|Key Mapper|[F-Droid](https://f-droid.org/en/packages/io.github.sds100.keymapper/)|
 |Package name viewer|Package Name Viewer|[APKPure](https://apkpure.com/package-name-viewer-2-0/com.csdroid.pkg)|
@@ -163,6 +164,8 @@ I tried hunting around for a phone case made for the 902KC, but I haven't found 
 I installed [Organic Maps](https://organicmaps.app/) through F-Droid and it works! To enable GPS, go into `Settings > More Settings > Location` and enable `Location`. Make sure `Mode` is on `High accuracy` and that `Wi-Fi scanning` and `Bluetooth scanning` are enabled under `Scanning`. Indoors, the GPS doesn't really work but it does outside. Unfortunately, I couldn't get the voice instructions to work either. Depending on where I'm going (and if it's to an unfamiliar area), I keep my smartphone with me so that I can use Apple CarPlay.
 
 But I've been thinking about the Kyocera A202KC. It has Android 10 and I wonder if Android Auto would work.
+
+Update: I installed Waze and its voice instructions work!
 
 ### Bluetooth & Music
 
