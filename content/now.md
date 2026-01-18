@@ -6,10 +6,9 @@ weight = 2
 
 # Now
 
-As of December 24, 2025, I'm...
+As of January 18, 2026, I'm...
 
-- done with my fall semester,
-- preparing for the spring semester (and hoping I get accepted into the School of Engineering),
+- now an electrical engineering student (yippee!!),
 - applying to internships,
 - working,
 - hitting the gym consistently-ish,
