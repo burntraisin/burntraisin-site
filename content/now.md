@@ -6,11 +6,8 @@ weight = 2
 
 # Now
 
-As of January 18, 2026, I'm...
+As of May 19, 2026, I'm...
 
-- now an electrical engineering student (yippee!!),
-- applying to internships,
-- working,
-- hitting the gym consistently-ish,
-- working on *the* research project ([EVC](https://burntraisin.github.io/burntraisin-site/work/2025-summer-assistant/)),
-- and writing up more blog posts.
+- working on an Emacs package,
+- creating a zine,
+- and scribbling in my commonplace book.
