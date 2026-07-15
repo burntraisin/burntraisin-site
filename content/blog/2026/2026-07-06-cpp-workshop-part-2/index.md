@@ -48,7 +48,7 @@ C++ is a procedural programming language, based on C. It's an extension of the C
 - Procedural relies on step-by-step instructions to change the state of the program in which data is mutable (can be changed)
     - C, C++, Python, Java
 - Functional takes after mathematical functions (same output for same input) in which data is immutable (cannot be changed)
-    - Lisp, OCaml, Scheme
+    - Haskell, OCaml (impure)
 
 ---
 
